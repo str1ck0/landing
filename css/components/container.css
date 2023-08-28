@@ -1,0 +1,42 @@
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.container-middle {
+  width: 900px;
+  margin: 60px auto;
+}
+
+.container h1 {
+  color: white;
+  font-size: 28pt;
+  text-align: center;
+}
+
+.container p {
+  color: whitesmoke;
+  font-size: 14pt;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container, .container-middle {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container, .container-middle{
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container, .container-middle {
+    width: 300px;
+  }
+  .card {
+    margin: 0 auto;
+  }
+}

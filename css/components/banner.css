@@ -1,0 +1,7 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+  url("https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cm9ib3RpY3N8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60");
+  background-size: contain;
+  background-position: center;
+  padding: 80px 0;
+}
